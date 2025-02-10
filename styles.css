@@ -1,3 +1,9 @@
+html, body {
+    height: auto; 
+    min-height: 100vh; 
+    overflow-y: auto; 
+}
+
 /* Base Styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -7,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     overflow: hidden;
     position: relative;
     flex-direction: column;
@@ -22,6 +27,7 @@ body {
     max-width: 90%;
     width: 600px;
     box-sizing: border-box;
+    overflow: visible;
 }
 
 /* Responsive Text */
