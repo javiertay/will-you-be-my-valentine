@@ -29,7 +29,7 @@ function handleNoClick() {
 
         // Increase Yes button size
         const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
-        yesButton.style.fontSize = `${currentSize * 1.25}px`;
+        yesButton.style.fontSize = `${currentSize * 1.5}px`;
 
         // Disable the No button after the last message
         if (messageIndex === messages.length) {
